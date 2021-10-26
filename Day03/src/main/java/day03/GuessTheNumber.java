@@ -19,9 +19,9 @@ public class GuessTheNumber {
         for(int i = 0;i<6;i++){
             System.out.println("Tippelj");
             guessedNumber = scanner.nextInt();
-            if(rndNumber> guessedNumber){
+            if(rndNumber > guessedNumber){
                 System.out.println("Nagyobb mint a gondolt szám");
-            }else if(rndNumber<guessedNumber){
+            }else if(rndNumber < guessedNumber){
                 System.out.println("Kisebb mint a gondolt szám");
             }else{
                 return "Gratulálok kitaláltad!";
@@ -29,7 +29,4 @@ public class GuessTheNumber {
         }
         return "Nem sikerült kitalálni" + rndNumber;
     }
-
-
-
 }
