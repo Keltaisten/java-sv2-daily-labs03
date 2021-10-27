@@ -27,6 +27,6 @@ public class GuessTheNumber {
                 return "Gratulálok kitaláltad!";
             }
         }
-        return "Nem sikerült kitalálni";
+        return "Nem sikerült kitalálni.";
     }
 }
